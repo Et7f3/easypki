@@ -36,9 +36,14 @@ import "gopkg.in/google/easypki.v0"
 Current implementation of the CLI uses the local store and uses a structure
 compatible with openssl, so you are not restrained.
 
+To build binary inside this clone:
+```
+go build ./example/client-auth/client-auth.go; go build ./cmd/easypki/main.go
+```
+
 ```
 # Get the CLI:
-go get github.com/google/easypki/cmd/easypki
+go get github.com/Et7f3/easypki/cmd/easypki
 
 
 # You can also pass the following through arguments if you do not want to use
